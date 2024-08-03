@@ -6,7 +6,7 @@ export default function Card({ name, artist, photo, others }) {
       <div className=" w-40 h-40 overflow-hidden rounded-xl  ">
         <img className="object-cover w-full h-full" src={photo} alt="" />
       </div>
-      <div className="pl-4 pt-1">
+      <div className="pl-1 pt-1 w-40">
         <p className="font-semibold">{name}</p>
         <p className="text-[#A8A8A8]">{artist} </p>
         <p className="text-[#A8A8A8] mt-[-3px]">{others}</p>
