@@ -75,15 +75,15 @@ export default function NavBar() {
           </span>
         </li>
       </ul>
-      <div className="w-[92%] mx-auto max-h-60 overflow-y-scroll ">
-        <div className="bg-[#1F1F1F] w-full h-[9rem] mt-3 mb-4 text-white flex flex-col justify-around pl-2 text-[0.9rem] rounded-lg">
+      <div className="w-[92%] mx-auto max-h-40 overflow-y-scroll ">
+        <div className="bg-[#1F1F1F] w-full h-[8rem] mt-3 mb-4 text-white flex flex-col justify-around pl-2 text-[0.9rem] rounded-lg">
           <p className="font-semibold">Create your first playlist</p>
           <p>It's easy, we'll help you</p>
           <button className="flex items-center gap-2 rounded-full bg-white h-8 w-[135px] mb-2 mt-1  text-black font-semibold justify-center hover:cursor-pointer hover:text-[0.92rem] hover:w-[136px] hover:bg-slate-200">
             Create playlist
           </button>
         </div>
-        <div className="bg-[#1F1F1F] w-full h-[9rem] mb-3 text-white flex flex-col justify-around pl-2 text-[0.9rem] rounded-lg">
+        <div className="bg-[#1F1F1F] w-full h-[8rem] mb-3 text-white flex flex-col justify-around pl-2 text-[0.9rem] rounded-lg">
           <p className="font-semibold">Let's find some podcasts to follow</p>
           <p>we'll keep you updated on new episodes</p>
           <button className="flex items-center gap-2 rounded-full bg-white h-8 w-[135px] mb-2 mt-1  text-black font-semibold justify-center hover:cursor-pointer hover:text-[0.92rem] hover:w-[136px] hover:bg-slate-200">
@@ -92,7 +92,7 @@ export default function NavBar() {
         </div>
       </div>
       <div className="footer mt-auto pl-5 pr-5 flex flex-wrap flex-col text-[0.7rem]  ">
-        <div className="text-gray-400 flex flex-wrap pr-2 gap-x-6 gap-y-3 mb-10">
+        <div className="text-gray-300 flex flex-wrap pr-2 gap-x-6 gap-y-3 mb-10">
           <p className="hover:cursor-pointer">Legal</p>
           <p className="hover:cursor-pointer">Safety & Privacy Center</p>
           <p className="hover:cursor-pointer">Privacy Policy</p>

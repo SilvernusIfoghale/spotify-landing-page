@@ -3,7 +3,7 @@ import { artists } from "../db/Database";
 export default function Artist() {
   return (
     <>
-      <div className="sm:grid  overflow-x-scroll sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-8  h-56 sm:overflow-hidden min-w-[100%] flex sm:w-full">
+      <div className="sm:grid  overflow-x-scroll sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6  h-56 sm:overflow-hidden min-w-[100%] flex sm:w-full">
         {artists.map((artist) => (
           <div className=" group relative h-56  hover:bg-[rgb(57,55,55)] rounded-xl text-white py-2 px-3 mx-auto cursor-pointer ">
             <div className=" w-40 h-40 overflow-hidden rounded-full  ">
